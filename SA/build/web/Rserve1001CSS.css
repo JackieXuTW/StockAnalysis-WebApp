@@ -1,0 +1,270 @@
+/* 
+    Document   : css1
+    Created on : 2013/9/10, 下午 09:36:21
+    Author     : Leon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.goindex{
+        top: 40px;
+        position: relative;
+        z-index: 1;
+}
+
+bg{
+	left: 30%;
+	background-position: center center;
+	height: 600px;
+	width: 800px;
+}
+
+hr {
+	border:0; height:1px; background-color:#d4d4d4;
+	color:#d4d4d4;
+	width: 80%;
+}
+
+a:link {
+
+font-size: 13px;
+
+color: #2980B9;
+
+text-decoration: none;
+
+}
+
+a:visited {
+
+font-size: 13px;
+
+color: #009393;
+
+text-decoration: none;
+
+}
+
+a:hover {
+
+font-size: 13px;
+
+color: #2980B9;
+
+text-decoration: underline;
+
+}
+
+caption {
+	font: 14px/1.286 "Lucida Grande","Lucida Sans Unicode","DejaVu Sans",Lucida,Arial,Helvetica,sans-serif;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'DejaVu Sans', Lucida, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.286;
+	font-size: 30px;
+	letter-spacing: -1px;
+	font-weight: 700;
+    color: #4d4e53;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+
+input.imgbutton {
+	position:relative;
+	left: 40%;
+	background-color:#599bb3;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:14px 64px;
+	text-decoration:none;
+}
+input.imgbutton:hover {
+	background-color:#408c99;
+}
+input.imgbutton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#testB{
+    color: red;
+}
+
+
+#selectionTitle{
+	position: relative;
+	top: 30px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	color: #006699;
+        width: 100%;
+}
+
+#selectedTitle{
+	position: relative;
+	top: 7%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 36px;
+	color: #006699;
+        text-align: center;
+}
+
+#selectionMain{
+	position: relative;
+	top: 50px;
+ }
+ 
+.table1
+  {
+	position: relative;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	width: 100%;
+	border-collapse: collapse;
+	color: #333333;
+        
+  }
+.table1 tr
+  {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	height: 35px;
+	background-color: #C0E4E6;
+  }
+  .table1 td
+  {
+	width: 10%;
+	font-size: 12px;
+  }
+  .table1 th.dateTittle
+  {
+        font-size: 16px;
+        text-align:center;
+        padding: 12px;
+        border:3px solid #2F6BCF;
+        background-color: blueviolet;
+        color:#ffffff;
+  }
+  
+.table1 th.stockTittle
+{
+     font-size: 16px;
+     text-align:center;
+     padding: 12px;
+     border:3px solid #2F6BCF;
+     background-color: darkblue;
+     color:#ffffff;
+}
+
+ .table1 th.stockHead
+ {
+	font-size: 14px;
+	text-align: center;
+	padding: 8px;
+	background-color: #34ACB2;
+	color: #ffffff;
+ }
+ 
+  .table_showselect
+  {
+	position: relative;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 36px;
+	border-collapse: collapse;
+	color: #333333;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #CC3333;
+	width: 700px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  }
+  
+  .table_showselect tr
+  {
+    text-align: center; 
+    height: 40px; 
+    font-size: 16px; 
+  }
+  
+  .table_showselect td
+  {
+      width: 130px;
+  }
+  
+  .table_result {
+		overflow:hidden;
+		border:1px solid #d3d3d3;
+		color: #555;
+		background:#fefefe;
+		width:70%;
+		margin:auto;
+		-moz-border-radius:5px; /* FF1+ */
+		-webkit-border-radius:5px; /* Saf3-4 */
+		border-radius:5px;
+		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 16px;
+	}
+	
+.table_result th {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		text-shadow: 1px 1px 1px #fff;
+		background: #e8eaeb;
+		background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+		background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+}
+	
+  .table_result_old
+  {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	border-collapse: collapse;
+	color: #333333;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	  }
+  
+#selectbody
+  {
+	font-size: 18px;
+	position: relative;
+	top: 40%;
+	left: 33%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	color: #D70206;
+	width: 35%;
+	text-align: center;
+  }
+  
+#content {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #42777D;
+	font-weight: bold;
+	text-align: center;
+}
+ 
+
